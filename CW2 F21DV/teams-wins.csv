@@ -1,0 +1,437 @@
+﻿year,sex,name,count,rank
+1996,M,South Africa,25,1
+1996,M,Sri Lanka,20,2
+1996,M,Pakistan,23,3
+1996,M,India,13,4
+1996,M,Australia,13,5
+1996,M,West Indies,10,6
+1996,M,England,7,7
+1996,M,New Zealand,9,8
+1996,M,Zimbabwe,3,9
+1996,M,Kenya,1,10
+1996,M,United Arab Emirates,1,11
+1996,M,Netherlands,0,12
+1997,M,South Africa,17,1
+1997,M,Sri Lanka,19,2
+1997,M,England,9,3
+1997,M,Australia,7,4
+1997,M,Zimbabwe,12,5
+1997,M,New Zealand,6,6
+1997,M,Pakistan,15,7
+1997,M,West Indies,10,8
+1997,M,India,10,9
+1997,M,Kenya,2,10
+1997,M,Bangladesh,0,11
+1998,M,South Africa,17,1
+1998,M,India,24,2
+1998,M,Australia,15,3
+1998,M,Sri Lanka,11,4
+1998,M,West Indies,6,5
+1998,M,Pakistan,12,6
+1998,M,New Zealand,9,7
+1998,M,England,3,8
+1998,M,Zimbabwe,6,9
+1998,M,Kenya,2,10
+1998,M,Bangladesh,1,11
+1999,M,Australia,26,1
+1999,M,Pakistan,21,2
+1999,M,South Africa,18,3
+1999,M,India,21,4
+1999,M,West Indies,14,5
+1999,M,New Zealand,10,6
+1999,M,Sri Lanka,12,7
+1999,M,England,9,8
+1999,M,Zimbabwe,10,9
+1999,M,Bangladesh,2,10
+1999,M,Kenya,2,11
+1999,M,Scotland,0,12
+2000,M,South Africa,25,1
+2000,M,Sri Lanka,16,2
+2000,M,Australia,15,3
+2000,M,Pakistan,20,4
+2000,M,India,15,5
+2000,M,New Zealand,10,6
+2000,M,England,11,7
+2000,M,Zimbabwe,9,8
+2000,M,West Indies,6,9
+2000,M,Kenya,0,10
+2000,M,Bangladesh,0,11
+2001,M,Australia,18,1
+2001,M,South Africa,17,2
+2001,M,Sri Lanka,22,3
+2001,M,Pakistan,14,4
+2001,M,India,12,5
+2001,M,West Indies,13,6
+2001,M,New Zealand,8,7
+2001,M,Zimbabwe,10,8
+2001,M,Kenya,1,9
+2001,M,England,5,10
+2001,M,Bangladesh,0,11
+2002,M,Australia,19,1
+2002,M,South Africa,22,2
+2002,M,Pakistan,23,3
+2002,M,India,19,4
+2002,M,Sri Lanka,15,5
+2002,M,New Zealand,12,6
+2002,M,West Indies,12,7
+2002,M,England,11,8
+2002,M,Zimbabwe,4,9
+2002,M,Netherlands,0,10
+2002,M,Kenya,0,11
+2002,M,Bangladesh,0,12
+2003,M,Australia,30,1
+2003,M,West Indies,10,2
+2003,M,Sri Lanka,13,3
+2003,M,India,16,4
+2003,M,Pakistan,21,5
+2003,M,New Zealand,12,6
+2003,M,South Africa,13,7
+2003,M,England,13,8
+2003,M,Zimbabwe,7,9
+2003,M,Kenya,4,10
+2003,M,Netherlands,1,11
+2003,M,Canada,1,12
+2003,M,Namibia,0,13
+2003,M,Bangladesh,0,14
+2004,M,New Zealand,19,1
+2004,M,Australia,19,2
+2004,M,Sri Lanka,20,3
+2004,M,Pakistan,15,4
+2004,M,England,12,5
+2004,M,West Indies,12,6
+2004,M,India,15,7
+2004,M,South Africa,5,8
+2004,M,Bangladesh,3,9
+2004,M,Zimbabwe,2,10
+2004,M,United States of America,0,11
+2004,M,Kenya,0,12
+2004,M,Hong Kong,0,13
+2004,M,United Arab Emirates,0,14
+2005,M,South Africa,18,1
+2005,M,Australia,21,2
+2005,M,India,15,3
+2005,M,Pakistan,13,4
+2005,M,England,8,5
+2005,M,Sri Lanka,8,6
+2005,M,New Zealand,6,7
+2005,M,Bangladesh,4,8
+2005,M,West Indies,2,9
+2005,M,Zimbabwe,2,10
+2005,M,Africa XI,1,11
+2005,M,Asia XI,1,12
+2005,M,ICC World XI,1,13
+2006,M,Australia,20,1
+2006,M,South Africa,15,2
+2006,M,Sri Lanka,19,3
+2006,M,West Indies,18,4
+2006,M,New Zealand,9,5
+2006,M,Pakistan,11,6
+2006,M,India,13,7
+2006,M,England,5,8
+2006,M,Bangladesh,18,9
+2006,M,Zimbabwe,8,10
+2006,M,Kenya,7,11
+2006,M,Bermuda,4,12
+2006,M,Netherlands,3,13
+2006,M,Ireland,1,14
+2006,M,Canada,2,15
+2006,M,Scotland,1,16
+2007,M,Australia,24,1
+2007,M,England,18,2
+2007,M,India,20,3
+2007,M,New Zealand,17,4
+2007,M,South Africa,19,5
+2007,M,Sri Lanka,16,6
+2007,M,Pakistan,8,7
+2007,M,West Indies,12,8
+2007,M,Asia XI,3,9
+2007,M,Bangladesh,8,10
+2007,M,Ireland,5,11
+2007,M,Kenya,13,12
+2007,M,Zimbabwe,2,13
+2007,M,Scotland,6,14
+2007,M,Netherlands,7,15
+2007,M,Canada,4,16
+2007,M,Bermuda,1,17
+2007,M,Africa XI,0,18
+2008,M,India,18,1
+2008,M,Australia,13,2
+2008,M,Pakistan,18,3
+2008,M,Sri Lanka,14,4
+2008,M,New Zealand,10,5
+2008,M,England,7,6
+2008,M,South Africa,12,7
+2008,M,West Indies,5,8
+2008,M,Bangladesh,5,9
+2008,M,Ireland,4,10
+2008,M,Scotland,2,11
+2008,M,Netherlands,2,12
+2008,M,Bermuda,2,13
+2008,M,Canada,2,14
+2008,M,Zimbabwe,1,15
+2008,M,Kenya,1,16
+2008,M,Hong Kong,0,17
+2008,M,United Arab Emirates,0,18
+2009,M,Australia,23,1
+2009,M,India,17,2
+2009,M,South Africa,11,3
+2009,M,Netherlands,5,4
+2009,M,Sri Lanka,12,5
+2009,M,England,11,6
+2009,M,New Zealand,10,7
+2009,M,Bangladesh,14,8
+2009,M,Pakistan,8,9
+2009,M,Afghanistan,2,10
+2009,M,Zimbabwe,13,11
+2009,M,West Indies,4,12
+2009,M,Ireland,7,13
+2009,M,Kenya,2,14
+2009,M,Canada,3,15
+2009,M,Scotland,1,16
+2009,M,Bermuda,0,17
+2010,M,Sri Lanka,15,1
+2010,M,India,17,2
+2010,M,Australia,16,3
+2010,M,South Africa,12,4
+2010,M,England,12,5
+2010,M,Zimbabwe,7,6
+2010,M,Pakistan,5,7
+2010,M,New Zealand,6,8
+2010,M,Bangladesh,9,9
+2010,M,West Indies,6,10
+2010,M,Ireland,11,11
+2010,M,Netherlands,5,12
+2010,M,Afghanistan,7,13
+2010,M,Canada,4,14
+2010,M,Scotland,5,15
+2010,M,Kenya,3,16
+2011,M,Pakistan,24,1
+2011,M,India,21,2
+2011,M,Australia,18,3
+2011,M,Sri Lanka,14,4
+2011,M,England,11,5
+2011,M,South Africa,9,6
+2011,M,New Zealand,9,7
+2011,M,West Indies,10,8
+2011,M,Bangladesh,6,9
+2011,M,Zimbabwe,6,10
+2011,M,Afghanistan,2,11
+2011,M,Ireland,4,12
+2011,M,Scotland,3,13
+2011,M,Netherlands,2,14
+2011,M,Canada,1,15
+2011,M,Kenya,0,16
+2012,M,England,12,1
+2012,M,South Africa,8,2
+2012,M,Sri Lanka,14,3
+2012,M,India,9,4
+2012,M,Australia,11,5
+2012,M,Pakistan,7,6
+2012,M,Bangladesh,5,7
+2012,M,West Indies,8,8
+2012,M,Ireland,2,9
+2012,M,Kenya,1,10
+2012,M,Scotland,1,11
+2012,M,New Zealand,4,12
+2012,M,Netherlands,1,13
+2012,M,Afghanistan,1,14
+2012,M,Canada,0,15
+2012,M,Zimbabwe,0,16
+2013,M,India,22,1
+2013,M,Sri Lanka,14,2
+2013,M,Australia,12,3
+2013,M,South Africa,14,4
+2013,M,Pakistan,16,5
+2013,M,England,10,6
+2013,M,West Indies,9,7
+2013,M,New Zealand,7,8
+2013,M,Bangladesh,5,9
+2013,M,Afghanistan,4,10
+2013,M,Zimbabwe,3,11
+2013,M,Ireland,3,12
+2013,M,Netherlands,1,13
+2013,M,Kenya,2,14
+2013,M,Scotland,2,15
+2013,M,Canada,0,16
+2014,M,Australia,13,1
+2014,M,South Africa,12,2
+2014,M,Sri Lanka,20,3
+2014,M,India,14,4
+2014,M,New Zealand,9,5
+2014,M,England,9,6
+2014,M,Pakistan,6,7
+2014,M,West Indies,7,8
+2014,M,Zimbabwe,3,9
+2014,M,Bangladesh,5,10
+2014,M,Papua New Guinea,2,11
+2014,M,Afghanistan,6,12
+2014,M,United Arab Emirates,4,13
+2014,M,Scotland,4,14
+2014,M,Ireland,2,15
+2014,M,Kenya,1,16
+2014,M,Netherlands,1,17
+2014,M,Canada,0,18
+2014,M,Hong Kong,0,19
+2015,M,Australia,15,1
+2015,M,New Zealand,21,2
+2015,M,England,12,3
+2015,M,South Africa,15,4
+2015,M,Bangladesh,13,5
+2015,M,Sri Lanka,12,6
+2015,M,India,13,7
+2015,M,Pakistan,12,8
+2015,M,Zimbabwe,7,9
+2015,M,Hong Kong,2,10
+2015,M,West Indies,4,11
+2015,M,Afghanistan,8,12
+2015,M,Ireland,6,13
+2015,M,Scotland,1,14
+2015,M,United Arab Emirates,0,15
+2016,M,South Africa,11,1
+2016,M,Australia,17,2
+2016,M,England,11,3
+2016,M,New Zealand,10,4
+2016,M,West Indies,4,5
+2016,M,India,7,6
+2016,M,Pakistan,5,7
+2016,M,Sri Lanka,6,8
+2016,M,Bangladesh,3,9
+2016,M,Zimbabwe,3,10
+2016,M,Afghanistan,5,11
+2016,M,Ireland,2,12
+2016,M,Hong Kong,3,13
+2016,M,Scotland,3,14
+2016,M,Papua New Guinea,1,15
+2016,M,United Arab Emirates,0,16
+2017,M,India,21,1
+2017,M,England,15,2
+2017,M,Pakistan,12,3
+2017,M,South Africa,13,4
+2017,M,New Zealand,10,5
+2017,M,Australia,5,6
+2017,M,Sri Lanka,5,7
+2017,M,West Indies,3,8
+2017,M,Afghanistan,8,9
+2017,M,Ireland,7,10
+2017,M,Bangladesh,4,11
+2017,M,Zimbabwe,6,12
+2017,M,Scotland,4,13
+2017,M,United Arab Emirates,4,14
+2017,M,Hong Kong,3,15
+2017,M,Papua New Guinea,2,16
+2018,M,England,17,1
+2018,M,India,14,2
+2018,M,New Zealand,8,3
+2018,M,Afghanistan,12,4
+2018,M,Bangladesh,13,5
+2018,M,West Indies,8,6
+2018,M,South Africa,9,7
+2018,M,Ireland,8,8
+2018,M,Sri Lanka,6,9
+2018,M,Scotland,5,10
+2018,M,Pakistan,8,11
+2018,M,Zimbabwe,5,12
+2018,M,Australia,2,13
+2018,M,United Arab Emirates,4,14
+2018,M,Hong Kong,1,15
+2018,M,Papua New Guinea,1,16
+2018,M,Netherlands,1,17
+2018,M,Nepal,1,18
+2019,M,India,19,1
+2019,M,Australia,16,2
+2019,M,England,15,3
+2019,M,New Zealand,13,4
+2019,M,South Africa,11,5
+2019,M,West Indies,10,6
+2019,M,Pakistan,9,7
+2019,M,Sri Lanka,7,8
+2019,M,Bangladesh,7,9
+2019,M,Netherlands,2,10
+2019,M,United States of America,11,11
+2019,M,Namibia,7,12
+2019,M,Scotland,8,13
+2019,M,Oman,6,14
+2019,M,Papua New Guinea,2,15
+2019,M,United Arab Emirates,3,16
+2019,M,Ireland,6,17
+2019,M,Nepal,2,18
+2019,M,Zimbabwe,4,19
+2019,M,Afghanistan,4,20
+2020,M,Oman,10,1
+2020,M,Sri Lanka,3,2
+2020,M,United Arab Emirates,4,3
+2020,M,Bangladesh,3,4
+2020,M,Namibia,2,5
+2020,M,South Africa,4,6
+2020,M,England,4,7
+2020,M,Australia,6,8
+2020,M,New Zealand,3,9
+2020,M,India,3,10
+2020,M,West Indies,3,11
+2020,M,Ireland,1,12
+2020,M,Pakistan,2,13
+2020,M,Zimbabwe,1,14
+2020,M,Nepal,4,15
+2020,M,United States of America,0,16
+2021,M,New Zealand,3,1
+2021,M,Afghanistan,3,2
+2021,M,Scotland,5,3
+2021,M,England,6,4
+2021,M,India,4,5
+2021,M,Netherlands,3,6
+2021,M,Bangladesh,8,7
+2021,M,Sri Lanka,4,8
+2021,M,Ireland,4,9
+2021,M,Oman,6,10
+2021,M,West Indies,4,11
+2021,M,Australia,2,12
+2021,M,Nepal,4,13
+2021,M,South Africa,3,14
+2021,M,United States of America,3,15
+2021,M,Namibia,1,16
+2021,M,United Arab Emirates,1,17
+2021,M,Pakistan,2,18
+2021,M,Zimbabwe,1,19
+2021,M,Papua New Guinea,0,20
+2022,M,Pakistan,8,1
+2022,M,Australia,11,2
+2022,M,Bangladesh,10,3
+2022,M,Sri Lanka,6,4
+2022,M,Afghanistan,8,5
+2022,M,India,14,6
+2022,M,South Africa,6,7
+2022,M,Zimbabwe,4,8
+2022,M,England,5,9
+2022,M,New Zealand,10,10
+2022,M,Scotland,15,11
+2022,M,Namibia,13,12
+2022,M,United States of America,9,13
+2022,M,United Arab Emirates,10,14
+2022,M,West Indies,5,15
+2022,M,Nepal,7,16
+2022,M,Oman,7,17
+2022,M,Papua New Guinea,2,18
+2022,M,Ireland,2,19
+2022,M,Netherlands,0,20
+2023,M,India,18,1
+2023,M,Australia,12,2
+2023,M,Bangladesh,9,3
+2023,M,New Zealand,11,4
+2023,M,Sri Lanka,4,5
+2023,M,Afghanistan,4,6
+2023,M,England,8,7
+2023,M,South Africa,5,8
+2023,M,Zimbabwe,6,9
+2023,M,Pakistan,7,10
+2023,M,West Indies,5,11
+2023,M,Scotland,17,12
+2023,M,Nepal,16,13
+2023,M,United States of America,13,14
+2023,M,Namibia,15,15
+2023,M,Ireland,1,16
+2023,M,Netherlands,1,17
+2023,M,United Arab Emirates,10,18
+2023,M,Oman,4,19
+2023,M,Papua New Guinea,4,20
+2023,M,Canada,3,21
+2023,M,Jersey,1,22

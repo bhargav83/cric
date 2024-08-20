@@ -1,0 +1,87 @@
+:root {
+  --border-radius: 15px;
+  --text-color: hsl(0, 0%, 99%);
+  --bg-color-primary: hsl(0, 0%, 25%);
+
+  background-color: hsl(0, 0%, 15%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+text {
+  fill: var(--text-color);
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+  background-color: dimgrey;
+}
+
+.chart-caption {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.line-chart-title {
+  font-size: 6px;
+}
+.line {
+  fill: none;
+  stroke-width: 2px;
+  stroke: rgba(90, 90, 90, 0.2);
+}
+
+.rank-chart-select {
+  padding: 10px;
+  margin: 0 10% 10px 10%;
+
+  width: 80%;
+}
+.rank-line-selected {
+  stroke: cyan;
+}
+.rank-line-hover {
+  stroke: lightblue;
+}
+
+.bar {
+  fill: aquamarine;
+}
+
+.parallel-chart-svg text {
+  font-size: 8px;
+}
+.parallel-chart-svg .rightMarker {
+  fill: orange;
+}
+.parallel-chart-svg .leftMarker {
+  fill: lightgrey;
+}
+.parallel-chart-svg .marker-matched {
+  fill: orchid;
+}
+.parallel-chart-svg .link {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.parallel-chart-controls-top {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.top10-chart-select {
+  padding: 10px;
+}
+
+.bar-chart-controls-top {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

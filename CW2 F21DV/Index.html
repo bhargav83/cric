@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CW2-Data Visualisation and Analytics sk2152(H00423225)</title>
+
+    <link rel="stylesheet" href="styling.css" />
+    <link rel="stylesheet" href="layout.css" />
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <script src="main.js" type="module"></script>
+
+    
+  </head>
+  <body>
+    <main>
+      <h1 style="text-align: center;">One-Day Internationals</h1>
+      <h4 style="text-align: center;">Sport: Cricket</h4>
+      <p>
+        cricket is one of the most popular sports worldwide with a large fan base.
+        Out of many formats played such as T-20, One-Day internationals, and test Matches, 
+        One-Day Internationals are the most important and highly valued format.
+        The graphs below compare different cricket teams and cricket players depending on how many victories each team has had for the subsequent year (from 1996 to 2020) and how many runs each player has scored overall for that year (1996-2020).
+There may be a favourite cricket team or cricketer for each person. You may follow the progress of your favourite team and see the ups and downs of your favourite batsmen by using the charts below.    
+      </p>
+      <h2>Changes to the top 10</h2>
+      <p>
+        Let's start by examining the top 10 cricket teams and top 10 batsmen over the years, as well as how they change over time.
+      </p>
+      <p>
+        To witness the team names and player names shift between ranks from 1996 to 2020 automatically, try clicking the play buttons.
+      </p>
+      <div class="pop-charts">
+        <div id="top-s"></div>
+        <div id="top-ew"></div>
+      </div>
+     <p> From the above chart if you observe, Australia , India, Srilanka, pakistan, England, New zealand are the teams which stayed persistant without dissapearing from the chart. Although Australia is the only Team which stayed under Rank 5 the whole time. Teams Such as Kenya and Canada are giving the "Wait, Who are these Guys" effect by occasionally showing up on the chart  </p>      <h2>A macroscopic view upon the win/run rate </h2>
+      </p>
+      <div class="pop-charts">
+        <div id="pop-s"></div>
+        <div id="pop-ew"></div>
+      </div>
+       <p>
+        The line graph of the United Arab Emirates is one intriguing example we can see here. where the graph plummets to its lowest point in 2008 and then unexpectedly soars to the Top 4 in the year 2020
+      </p>
+      <p>
+        The Graph shown in the right hand side is the line chart of top 10 batsmen from 2008 till the present.You can observe "Tamim Iqbal" has stayed throughout the Graph and had a long Run 
+      </p> 
+      <div class="pop-charts">
+        <div id="swing-s"></div>
+        <div id="swing-ew"></div>
+      </div>
+      <h2>Total Batting Statistics</h2>
+     <!-- Add a dropdown button -->
+<select onchange="update(this.value)">
+  <option value="Runs" selected>Most Runs</option>
+  <option value="100">Most centuries</option>
+  <option value="50">Most Half centuries</option>
+  <option value="6s">Most 6's</option>
+  <option value="HS">Highest score</option>
+  <option value="Ave">Highest average</option>
+   <option value="SR">Highest strike Rate</option>
+   <option value="0">Most Duck Outs</option>
+</select>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+<script>
+
+// set the dimensions and margins of the graph
+const margin = {top: 50, right: 30, bottom: 90, left: 90},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+const svg = d3.select("#my_dataviz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+// Initialize the X axis
+const x = d3.scaleBand()
+  .range([ 0, width ])
+  .padding(0.2);
+const xAxis = svg.append("g")
+  .attr("transform", `translate(0,${height})`)
+  .attr("class", "x-axis");
+
+// Initialize the Y axis
+const y = d3.scaleLinear()
+  .range([ height, 0]);
+const yAxis = svg.append("g")
+  .attr("class", "myYaxis");
+
+// A function that create / update the plot for a given variable:
+function update(selectedVar) {
+
+  // Parse the Data
+  d3.csv("https://raw.githubusercontent.com/Bhargavkaipa/totalbattingstats/main/totalbatting.csv").then( function(data) {
+
+    // Filter data with non-zero selectedVar values
+    data = data.filter(function(d) { return +d[selectedVar] > 0; });
+
+    // Sort the data by selectedVar and select the top 30
+    data = data.sort((a, b) => b[selectedVar] - a[selectedVar]).slice(0, 30);
+
+    // X axis
+    x.domain(data.map(d => d.Player));
+    xAxis.transition().duration(1000).call(d3.axisBottom(x))
+      .selectAll("text")
+        .attr("transform", "rotate(-45)")
+        .attr("dy", "0.8em")
+        .attr("dx", "-0.8em")
+        .style("text-anchor", "end");
+
+    // Add Y axis
+    y.domain([0, d3.max(data, d => +d[selectedVar]) ]);
+    yAxis.transition().duration(1000).call(d3.axisLeft(y));
+
+    // variable u: map data to existing bars
+    const u = svg.selectAll("rect")
+      .data(data)
+
+    // update bars
+    u.join("rect")
+      .transition()
+      .duration(1000)
+        .attr("x", d => x(d.Player))
+        .attr("y", d => y(d[selectedVar]))
+        .attr("width", x.bandwidth())
+        .attr("height", d => height - y(d[selectedVar]))
+        .attr("fill", "#69b3a2")
+  })
+
+}
+
+// Initialize plot
+update('Runs')
+
+</script>
+<p>It appears that Sachin Tendulkar (IND) has amassed the most runs (18000 runs), which is the greatest total ever. He not only has the greatest runs, but also the most centuries and half-centuries. It is understandable why he is referred to as "THE GOD OF CRICKET".Yet, it is funny to notice that even the god of cricket has been ducked out 19 times.</p>
+<footer>
+  <p>
+    Project Done by Kaipa Sai Bhargav (H00423225) . <br> 
+    All the datasets are borrowed / reffered from the following sites:<a href=" http://www.cricmetric.com/rankings.py">cricmetric</a>(Cricket Tem) <a href=" https://stats.espncricinfo.com/ci/engine/records/index.html">Espncricinfo</a>    (Batsmen stats) <a href=" https://github.com/Bhargavkaipa/totalbattingstats">Bhargavkaipa/totalbattingstats</a>  (overall batsemen stats) .
+  </p>
+</footer>   
+</main>
+
+  </body>
+</html>
+
